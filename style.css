@@ -31,9 +31,12 @@ li{
 }
 
 .main:hover{
-    box-shadow: 0px 0px 8px violet,
-    0px 0px 20px violet;
+    box-shadow: 0px 0px 8px rgb(255, 0, 255),
+    0px 0px 20px rgb(255, 0, 255);
     background-color: #000e0f;
+    border: rgb(255, 0, 255);
+    transition: 1s;
+    transition-delay: 1ms;
 }
 
 .main .img{
@@ -50,11 +53,11 @@ li{
  }
 
  .img:hover{
-    box-shadow: 0px 0px 8px rgb(0, 64, 64),
-    0px 0px 10px rgb(0, 77, 77),
-    0px 0px 20px rgb(4, 73, 73),
-    0px 0px 40px rgb(0, 85, 85);
-    transition: 1s;
+    box-shadow: 0px 0px 8px rgb(255, 0, 255),
+    0px 0px 10px rgb(255, 0, 255),
+    0px 0px 20px rgb(255, 0, 255);
+    border: violet;
+    transition: 0.7s;
  }
 
 .main h1{
@@ -68,7 +71,7 @@ li{
 
 h1:hover{
     color: rgb(255, 255, 255);
-    transition: 1s;
+    transition: 0.7s;
     text-shadow: 0px 0px 8px rgb(0, 64, 64),
     0px 0px 10px rgb(0, 164, 164),
     0px 0px 20px rgb(0, 181, 181);
@@ -78,6 +81,11 @@ h1:hover{
     color: rgb(0, 255, 255);
 }
 
+.main h1 span:hover{
+    color: violet;
+    transition: 0.7s;
+}
+
 
 .main .text{
     text-align: center;
@@ -85,6 +93,11 @@ h1:hover{
     margin: 0;
     color: rgb(199, 199, 199);
     font-family: Arial, sans-serif;
+}
+
+.main .text:hover{
+    color: violet;
+    transition: 0.7s;
 }
 
 strong{
@@ -99,6 +112,11 @@ strong{
     height: auto;
     color: #f3bf5e;
     font-family: sans-serif;
+}
+
+.main p span:hover{
+    color: aqua;
+    transition: 0.6s;
 }
 
 .main li{
@@ -154,7 +172,7 @@ strong{
     }
 
     .main p span {
-        color: #ff9d00;
+        color: #d9caca;
         text-shadow: 1px 2px 2px   #000000;
         font-family: Arial;
     }
