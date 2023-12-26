@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Nunito+Sans:opsz,wght@6..12,500&family=Patua+One&display=swap');
 body{
-    padding: 10px;
-    background-color: #0d1417;
+    padding: 80px 0px 10px 0px;
+    background-color: #000000;
     background-size: cover;
     text-align: center;
     font-family: 'Archivo Black', sans-serif;
@@ -21,7 +21,7 @@ li{
 .main{
     width: 600px;
     height: 429px;
-    background-color: #344a58;
+    background-color: #354b56;
     margin: 0 auto;
     padding-top: 20px;
     border-radius: 10px;
@@ -53,7 +53,7 @@ li{
 
 .main h1{
     text-align: center;
-    font-size: 30px;
+    font-size: 20px;
     margin: 0;
     font-weight: bold;
     color: #ffffff;
@@ -66,8 +66,6 @@ h1:hover{
     text-shadow: 0px 0px 8px rgb(0, 64, 64),
     0px 0px 10px rgb(0, 164, 164),
     0px 0px 20px rgb(0, 181, 181);
-    scale: 1.1;
-    translate: 2rem;
 }
 
 .main h1 span{
@@ -81,6 +79,10 @@ h1:hover{
     margin: 0;
     color: rgb(199, 199, 199);
     font-family: Arial, sans-serif;
+}
+
+strong{
+    color: #000000;
 }
 
 
@@ -99,64 +101,59 @@ h1:hover{
 }
 
   
-  @media screen and (max-width: 500px) {
+  @media screen and (max-width: 599px) {
     .main {
     width: 300px;
     height: 400px;
     
     }
     .main .img{
-        width: 70px;
-        height: 70px;
+        width: 90px;
+        height: 90px;
     }
     .main h1{
         font-size: 25px;
+        font-family: sans-serif;
+        text-shadow: 1px 2px 2px   #000000;
+    }
+
+    h1:hover{
+        color: rgb(255, 255, 255);
+        transition: 1s;
+        text-shadow: 0px 0px 8px rgb(0, 64, 64),
+        0px 0px 10px rgb(0, 164, 164),
+        0px 0px 20px rgb(0, 181, 181);
     }
     .main .text{
-        font-size: 15px;
-        padding-top:2px ;
+        font-size: 12px;
+        padding: 1px ;   
+        text-shadow: 1px 2px 2px   #2d2d2d;
+    }
+
+    strong {
+        color: black;
+        text-shadow: 1px 2px 2px   #3d3d3d;
     }
     .main p{
+        color: #f1a414;
         font-size: 10px;
         margin: 0 auto;
-        width: 300px;
-        padding-top: 20px;
+        width: auto;
+        padding: 20px 5px 20px 5px;
+        text-shadow: 1px 2px 2px   #000000;
+    }
+
+    .main p span {
+        color: #ffdb98;
+        text-shadow: 1px 2px 2px   #000000;
+        font-family: Arial;
     }
     .main li {
         line-height: 10px;
         margin-left: 5px;
-        padding-top: 20px;
+        padding-top: 5px;
         
     }
   }
   
-  @media screen and (min-width: 600px) {
-    .main {
-    width: 400px;
-    height: 300px;
-    }
-    .main .img{
-        width: 70px;
-        height: 70px;
-    }
-    .main h1{
-        font-size: 25px;
-    }
-    .main .text{
-        font-size: 15px;
-        padding-top:2px ;
-    }
-    .main p{
-        font-size: 10px;
-        margin: 0 auto;
-        width: 300px;
-        padding-top: 20px;
-    }
-    .main li {
-        line-height: 10px;
-        margin-left: 5px;
-        padding-top: 20px;
-        
-    }
-  }
   
