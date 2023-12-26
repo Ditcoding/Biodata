@@ -1,10 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Nunito+Sans:opsz,wght@6..12,500&family=Patua+One&display=swap');
 body{
     padding: 100px;
-    background-image: url(img/bg.jpg);
+    background-color: #0d1417;
     background-size: cover;
     text-align: center;
     font-family: 'Archivo Black', sans-serif;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 ul{
@@ -25,12 +27,10 @@ li{
     border-radius: 10px;
     border: 1px solid aqua;
     box-shadow: 0px 0px 8px aqua,
-    0px 0px 20px aqua,
-    0px 0px 40px aqua,
-    0px 0px 80px aqua;
+    0px 0px 20px aqua;
 }
 
-.img{
+.main .img{
     background-image: url(img/profil.jpg);
     background-color: #ffffff;
     background-size: cover;
@@ -51,7 +51,7 @@ li{
     transition: 1s;
  }
 
-h1{
+.main h1{
     text-align: center;
     font-size: 30px;
     margin: 0;
@@ -64,17 +64,18 @@ h1:hover{
     color: rgb(255, 255, 255);
     transition: 1s;
     text-shadow: 0px 0px 8px rgb(0, 64, 64),
-    0px 0px 10px aqua,
-    0px 0px 20px aqua,
-    0px 0px 40px aqua;
+    0px 0px 10px rgb(0, 164, 164),
+    0px 0px 20px rgb(0, 181, 181);
+    scale: 1.1;
+    translate: 2rem;
 }
 
-span{
-    color: aqua;
+.main h1 span{
+    color: rgb(0, 255, 255);
 }
 
 
-.text{
+.main .text{
     text-align: center;
     font-size: 15px;
     margin: 0;
@@ -82,7 +83,8 @@ span{
     font-family: Arial, sans-serif;
 }
 
-p{
+
+.main p{
     margin: 0 auto;
     padding-top: 20px;
     width: 450px;
@@ -91,7 +93,69 @@ p{
     font-family: sans-serif;
 }
 
-li{
+.main li{
     line-height: 50px;
     margin-left: 10px;
 }
+
+  
+  @media screen and (min-width: 500px) {
+    .main {
+    width: 400px;
+    height: 300px;
+    }
+    .main .img{
+        width: 70px;
+        height: 70px;
+    }
+    .main h1{
+        font-size: 25px;
+    }
+    .main .text{
+        font-size: 15px;
+        padding-top:2px ;
+    }
+    .main p{
+        font-size: 10px;
+        margin: 0 auto;
+        width: 300px;
+        padding-top: 20px;
+    }
+    .main li {
+        line-height: 10px;
+        margin-left: 5px;
+        padding-top: 20px;
+        
+    }
+  }
+  
+  @media screen and (max-width: 300px) {
+    .main {
+    width: 400px;
+    height: 300px;
+    }
+    .main .img{
+        width: 70px;
+        height: 70px;
+    }
+    .main h1{
+        font-size: 25px;
+    }
+    .main .text{
+        font-size: 15px;
+        padding-top:2px ;
+    }
+    .main p{
+        font-size: 10px;
+        margin: 0 auto;
+        width: 300px;
+        padding-top: 20px;
+    }
+    .main li {
+        line-height: 10px;
+        margin-left: 5px;
+        padding-top: 20px;
+        
+    }
+  }
+  
