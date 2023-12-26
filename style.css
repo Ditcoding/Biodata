@@ -30,6 +30,12 @@ li{
     0px 0px 20px aqua;
 }
 
+.main:hover{
+    box-shadow: 0px 0px 8px violet,
+    0px 0px 20px violet;
+    background-color: #000e0f;
+}
+
 .main .img{
     background-image: url(img/profil.jpg);
     background-color: #ffffff;
@@ -99,6 +105,8 @@ strong{
     line-height: 5px;
     margin-left: 10px;
     padding: 0px;
+    color: #ffffff;
+    border-image: 1px solid white;
 }
 
   
@@ -106,8 +114,8 @@ strong{
     .main {
     width: 300px;
     height: 400px;
-    
     }
+
     .main .img{
         width: 90px;
         height: 90px;
@@ -133,11 +141,11 @@ strong{
     }
 
     strong {
-        color: black;
+        color: rgb(255, 252, 252);
         text-shadow: 1px 2px 2px   #3d3d3d;
     }
     .main p{
-        color: #9e9e9e;
+        color: #d9caca;
         font-size: 12px;
         margin: 0 auto;
         width: auto;
@@ -146,8 +154,8 @@ strong{
     }
 
     .main p span {
-        color: #9e9e9e;
-        text-shadow: 1px 2px 2px   #363636;
+        color: #ff9d00;
+        text-shadow: 1px 2px 2px   #000000;
         font-family: Arial;
     }
     .main li {
