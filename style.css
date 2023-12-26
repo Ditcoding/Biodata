@@ -1,187 +1,172 @@
-@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Nunito+Sans:opsz,wght@6..12,500&family=Patua+One&display=swap');
-body{
-    padding: 80px 0px 10px 0px;
-    background-color: #000000;
-    background-size: cover;
-    text-align: center;
-    font-family: 'Archivo Black', sans-serif;
-    display: flex;
-    flex-wrap: wrap;
+@import url("https://fonts.googleapis.com/css2?family=Archivo+Black&family=Nunito+Sans:opsz,wght@6..12,500&family=Patua+One&display=swap");
+body {
+  padding: 80px 0px 10px 0px;
+  background-color: #000000;
+  background-size: cover;
+  text-align: center;
+  font-family: "Archivo Black", sans-serif;
+  display: flex;
+  flex-wrap: wrap;
 }
 
-ul{
-    margin-left: -45px;
+ul {
+  margin-left: -45px;
 }
 
-li{
-    list-style: none;
-   display: inline-block; 
+li {
+  list-style: none;
+  display: inline-block;
 }
 
-.main{
-    width: 600px;
-    height: 429px;
-    background-color: #354b56;
-    margin: 0 auto;
-    padding-top: 20px;
-    border-radius: 10px;
-    border: 1px solid aqua;
-    box-shadow: 0px 0px 8px aqua,
-    0px 0px 20px aqua;
+.main {
+  width: 600px;
+  height: 429px;
+  background-color: #354b56;
+  margin: 0 auto;
+  padding-top: 20px;
+  border-radius: 10px;
+  border: 1px solid aqua;
+  box-shadow: 0px 0px 8px aqua, 0px 0px 20px aqua;
 }
 
-.main:hover{
-    box-shadow: 0px 0px 8px rgb(255, 0, 255),
-    0px 0px 20px rgb(255, 0, 255);
-    background-color: #000e0f;
-    border: rgb(255, 0, 255);
-    transition: 1s;
-    transition-delay: 1ms;
+.main:hover {
+  box-shadow: 0px 0px 8px rgb(255, 0, 255), 0px 0px 20px rgb(255, 0, 255);
+  background-color: #000e0f;
+  border: rgb(255, 0, 255);
+  transition: 1s;
+  transition-delay: 1ms;
 }
 
-.main .img{
-    background-image: url(img/profil.jpg);
-    background-color: #ffffff;
-    background-size: cover;
-    border-radius: 100px;
-    width: 150px;
-    height: 150px;
-    margin: 0 auto;
-    border: 1px solid #00d0ff;
-    box-shadow: 0px 0px 8px rgb(0, 120, 120),
-    0px 0px 20px rgb(49, 119, 121)
- }
-
- .img:hover{
-    box-shadow: 0px 0px 8px rgb(255, 0, 255),
-    0px 0px 10px rgb(255, 0, 255),
-    0px 0px 20px rgb(255, 0, 255);
-    border: violet;
-    transition: 0.7s;
- }
-
-.main h1{
-    text-align: center;
-    font-size: 20px;
-    margin: 0;
-    font-weight: bold;
-    color: #ffffff;
-    padding: 20px;
+.main .img {
+  background-image: url(img/profil.jpg);
+  background-color: #ffffff;
+  background-size: cover;
+  border-radius: 100px;
+  width: 150px;
+  height: 150px;
+  margin: 0 auto;
+  border: 1px solid #00d0ff;
+  box-shadow: 0px 0px 8px rgb(0, 120, 120), 0px 0px 20px rgb(49, 119, 121);
 }
 
-h1:hover{
-    color: rgb(255, 255, 255);
-    transition: 0.7s;
-    text-shadow: 0px 0px 8px rgb(0, 64, 64),
-    0px 0px 10px rgb(0, 164, 164),
-    0px 0px 20px rgb(0, 181, 181);
+.img:hover {
+  box-shadow: 0px 0px 8px rgb(255, 0, 255), 0px 0px 10px rgb(255, 0, 255), 0px 0px 20px rgb(255, 0, 255);
+  border: violet;
+  transition: 0.7s;
 }
 
-.main h1 span{
-    color: rgb(0, 255, 255);
+.main h1 {
+  text-align: center;
+  font-size: 20px;
+  margin: 0;
+  font-weight: bold;
+  color: #ffffff;
+  padding: 20px;
 }
 
-.main h1 span:hover{
-    color: violet;
-    transition: 0.7s;
+h1:hover {
+  color: rgb(255, 255, 255);
+  transition: 0.7s;
+  text-shadow: 0px 0px 8px rgb(0, 64, 64), 0px 0px 10px rgb(0, 164, 164), 0px 0px 20px rgb(0, 181, 181);
 }
 
-
-.main .text{
-    text-align: center;
-    font-size: 15px;
-    margin: 0;
-    color: rgb(199, 199, 199);
-    font-family: Arial, sans-serif;
+.main h1 span {
+  color: rgb(0, 255, 255);
 }
 
-.main .text:hover{
-    color: violet;
-    transition: 0.7s;
+.main h1 span:hover {
+  color: violet;
+  transition: 0.7s;
 }
 
-strong{
-    color: #ffffff;
+.main .text {
+  text-align: center;
+  font-size: 15px;
+  margin: 0;
+  color: rgb(199, 199, 199);
+  font-family: Arial, sans-serif;
 }
 
-
-.main p{
-    margin: 0 auto;
-    padding-top: 10px;
-    width: 450px;
-    height: auto;
-    color: #f3bf5e;
-    font-family: sans-serif;
+.main .text:hover {
+  color: violet;
+  transition: 0.7s;
 }
 
-.main p span:hover{
-    color: aqua;
-    transition: 0.6s;
+strong {
+  color: #ffffff;
 }
 
-.main li{
-    line-height: 5px;
-    margin-left: 10px;
-    padding: 0px;
-    color: #ffffff;
-    border-image: 1px solid white;
+.main p {
+  margin: 0 auto;
+  padding-top: 10px;
+  width: 450px;
+  height: auto;
+  color: #f3bf5e;
+  font-family: sans-serif;
 }
 
-  
-  @media screen and (max-width: 599px) {
-    .main {
+.main p span:hover {
+  color: violet;
+  transition: 0.7s;
+}
+
+.main li {
+  line-height: 5px;
+  margin-left: 10px;
+  padding: 0px;
+  color: #ffffff;
+  border-image: 1px solid white;
+}
+
+@media screen and (max-width: 599px) {
+  .main {
     width: 300px;
     height: 400px;
-    }
-
-    .main .img{
-        width: 90px;
-        height: 90px;
-    }
-    .main h1{
-        font-size: 25px;
-        font-family: sans-serif;
-        text-shadow: 1px 2px 2px   #000000;
-    }
-
-    h1:hover{
-        color: rgb(255, 255, 255);
-        transition: 1s;
-        text-shadow: 0px 0px 8px rgb(0, 64, 64),
-        0px 0px 10px rgb(0, 164, 164),
-        0px 0px 20px rgb(0, 181, 181);
-    }
-    .main .text{
-        font-size: 12px;
-        color: aqua;
-        padding: 1px ;   
-        text-shadow: 1px 2px 2px   #2d2d2d;
-    }
-
-    strong {
-        color: rgb(255, 252, 252);
-        text-shadow: 1px 2px 2px   #3d3d3d;
-    }
-    .main p{
-        color: #d9caca;
-        font-size: 12px;
-        margin: 0 auto;
-        width: auto;
-        padding: 20px 5px 20px 5px;
-        text-shadow: 1px 2px 2px   #000000;
-    }
-
-    .main p span {
-        color: #d9caca;
-        text-shadow: 1px 2px 2px   #000000;
-        font-family: Arial;
-    }
-    .main li {
-        line-height: 10px;
-        margin-left: 5px;
-        padding-top: 0px;
-        
-    }
   }
-  
-  
+
+  .main .img {
+    width: 90px;
+    height: 90px;
+  }
+  .main h1 {
+    font-size: 25px;
+    font-family: sans-serif;
+    text-shadow: 1px 2px 2px #000000;
+  }
+
+  h1:hover {
+    color: rgb(255, 255, 255);
+    transition: 1s;
+    text-shadow: 0px 0px 8px rgb(0, 64, 64), 0px 0px 10px rgb(0, 164, 164), 0px 0px 20px rgb(0, 181, 181);
+  }
+  .main .text {
+    font-size: 12px;
+    color: aqua;
+    padding: 1px;
+    text-shadow: 1px 2px 2px #2d2d2d;
+  }
+
+  strong {
+    color: rgb(255, 252, 252);
+    text-shadow: 1px 2px 2px #3d3d3d;
+  }
+  .main p {
+    color: #d9caca;
+    font-size: 12px;
+    margin: 0 auto;
+    width: auto;
+    padding: 20px 5px 20px 5px;
+    text-shadow: 1px 2px 2px #000000;
+  }
+
+  .main p span {
+    color: #d9caca;
+    text-shadow: 1px 2px 2px #000000;
+    font-family: Arial;
+  }
+  .main li {
+    line-height: 10px;
+    margin-left: 5px;
+    padding-top: 0px;
+  }
+}
