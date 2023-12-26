@@ -88,7 +88,7 @@ strong{
 
 .main p{
     margin: 0 auto;
-    padding-top: 20px;
+    padding-top: 15px;
     width: 450px;
     height: auto;
     color: #f3bf5e;
@@ -96,8 +96,9 @@ strong{
 }
 
 .main li{
-    line-height: 50px;
+    line-height: 5px;
     margin-left: 10px;
+    padding: 0px;
 }
 
   
