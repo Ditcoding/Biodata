@@ -21,7 +21,7 @@ li {
 .main {
   width: 600px;
   height: 429px;
-  background-color: #354b56;
+  background-color: #0c181e;
   margin: 0 auto;
   padding-top: 20px;
   border-radius: 10px;
@@ -121,6 +121,7 @@ strong {
   color: #ffffff;
   border-image: 1px solid white;
 }
+
 
 /* handphone */
 @media screen and (max-width: 599px) {
